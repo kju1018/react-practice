@@ -19,6 +19,12 @@ function AppMenu() {
         <Link to="/parctice2/exam01" className="nav-link text-warning">props 복습</Link>
       </li>
 
+      <li className="nav-item">
+        <h6 className="text-white">Global State 복습</h6>
+        <Link to="/parctice8/exam01" className="nav-link text-warning">ColorContext 복습</Link>
+        <Link to="/parctice8/exam03" className="nav-link text-warning">ColorRedux 복습</Link>
+      </li>
+
     </ul>
     );
 }
